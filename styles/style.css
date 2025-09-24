@@ -14,7 +14,7 @@ html {
   align-items: center;
   margin: auto;
   background-color: #1b1919;
-  padding: 133px 30px;
+  padding: 0 30px;
   inline-size: 1200px;
   block-size: 100%;
   color: #fff;
@@ -76,6 +76,7 @@ ol {
   position: relative;
   margin-bottom: 16px;
   width: 711px;
+  height: 386px;
 }
 
 .result__video {
@@ -94,6 +95,7 @@ ol {
 }
 
 .search-form__fieldset-title {
+  margin-bottom: 5px;
   width: fit-content;
   font-weight: 400;
   font-size: inherit;
@@ -204,9 +206,7 @@ ol {
 }
 
 .title {
-  margin-bottom: 26px;
-  width: 259px;
-  height: 210px;
+  margin-bottom: 22px;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -224,7 +224,6 @@ ol {
   position: relative;
   flex-direction: column;
   gap: 30px;
-  padding: 3px;
   height: 298px;
   overflow: auto;
 }
@@ -274,6 +273,7 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  margin-top: -3px; /* Компенсируем интерлиньяж */
 }
 
 .content__video-card-title {
@@ -298,7 +298,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-width: 194;
+  width: 193px;
   height: 103px;
   object-fit: cover;
   object-position: center;
