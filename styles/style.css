@@ -273,7 +273,7 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  margin-top: -3px; /* Компенсируем интерлиньяж */
+  margin-top: -3px;
 }
 
 .content__video-card-title {
@@ -288,13 +288,13 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
+  width: 190px;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   line-clamp: 4;
   overflow: hidden;
-  font-weight: 200;
-  line-height: 16px;
-  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .content__video-card-thumbnail {
